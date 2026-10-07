@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    color: #4d2d20;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f0e7;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.coffee {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-image: url("../assets/home/coffee-bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coffee1 {
+    color:  #FFF8E7;;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 50px 0 5px 15px;
+}
+
+.coffee2 {
+    color: #F4C892;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+    padding: 5px 0 5px 15px;
+}
+
+.coffee3 {
+    font-weight: normal;
+    font-size: 20px; 
+    color: #FFF8E7;
+    padding: 10px 0 5px 15px;
+}
+
+.coffee4{
+    display: block;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFF8E7;
+    padding: 5px 0 5px 0px;
+}
+
+.button1 {
+    display: inline-block;
+    background-color: #F4C892;
+    color: #603722;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #603722;
+}
+
+
+.button1:hover {
+    background-color: #603722;
+    color: #F4C892;
+}
+
+.features {
+    display: flex;
+    background-color: #fffaf5;
+    padding: 30px 50px;
+}
+
+.feature {
+    text-align: center;
+    border-right: 1px solid #ddcbbb;
+    padding: 15px;
+    width: 33.33%
+}
+
+.feature:last-child {
+    border-right: none;
+}
+
+.feature h2 {
+    font-size: 26px;
+    padding: 5px;
+}
+
+.feature p {
+    font-size: 13px;
+    color: #666;
+    padding: 5px;
+}
+
